@@ -1,7 +1,7 @@
 name: Token
 on:
   pull_request:
-    types: [closed]
+    types: [reopened]
 
 jobs:
   label:
